@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock %}
+{% block content %}
+
+<div class="row mt-4">
+    <!-- Left half: text -->
+    <div class="col-md-6 pt-3">
+        <h1 class="mb-3">Welcome to My Portfolio</h1>
+        <p class="intro-text">Hello! I’m a Data Science student passionate about Machine Learning, AI, and Data Visualization.</p>
+
+        <div class="card p-3 mt-4">
+            <h3>Contact Information</h3>
+
+            <!-- Email link -->
+            <p>Email: 
+                <a href="mailto:shanshad0999@gmail.com">Shanshad0999@gmail.com</a>
+            </p>
+
+            <!-- LinkedIn link -->
+            <p>LinkedIn: 
+                <a href="https://www.linkedin.com/in/shan-shad-m-4556-n" target="_blank">
+                    Linkedin
+                </a>
+            </p>
+
+            <!-- GitHub link -->
+            <p>GitHub: 
+                <a href="https://github.com/shah9661" target="_blank">
+                    Github
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Right half: image -->
+    <div class="col-md-6 text-center">
+        <img src="{{ url_for('static', filename='images/background.png') }}" 
+             alt="Data Science"
+             class="img-fluid rounded shadow portfolio-img">
+    </div>
+</div>
+
+{% endblock %}

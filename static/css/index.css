@@ -1,0 +1,72 @@
+/* Make headings stand out */
+h1 {
+    font-size: 38px;         /* bigger heading */
+    color: #e4e9f0;          /* softer light gray */
+    font-weight: bold;
+    padding-top: 1px;
+       /* slight spacing from top */
+    margin-top: -41px;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #d4e1f2;          /* lighter heading color */
+    margin-bottom: 15px;
+}
+
+/* Increase size of text inside the card */
+.card p {
+    font-size: 18px;         /* cleaner size */
+    color: #9eb8d4;          /* softer text color */
+    margin-bottom: 12px;
+    
+}
+
+/* Card styling */
+.card {
+    background-color: rgba(20, 29, 37, 0.9);  /* dark with slight transparency */
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3); /* stronger shadow */
+    width: 70%;             /* better balance */
+    margin-left: 0;          /* left align */
+    margin-right: auto;
+    padding: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5); /* hover effect */
+}
+
+/* Links styling */
+a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00b4d8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0096c7;
+}
+
+/* Image styling */
+.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    margin-top: -23px;
+}
+.intro-text {
+    font-size: 20px;
+    color: #e0e0e0;
+    font-style: italic;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
