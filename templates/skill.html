@@ -1,7 +1,36 @@
 {% extends 'base.html'%}
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static',filename='css/skill.css')}}">
+{% endblock %}
 {% block content %}
-<h2>Skill</h2>
-<ui>
-    <li>This is about my skill section </li>
-</ui>
+<div class="programming">
+
+  <h3>Programming Languages & Libraries</h3>
+  <ul>
+    <li>Python</li>
+    <li>NumPy, Pandas</li>
+    <li>Streamlit</li>
+    <li>Flask</li>
+  </ul>
+
+  <h3>Data Handling & Analysis</h3>
+  <ul>
+    <li>Web Scraping</li>
+    <li>Data Cleaning & Preprocessing</li>
+    <li>Exploratory Data Analysis (EDA)</li>
+  </ul>
+
+  <h3>Databases</h3>
+  <ul>
+    <li>MySQL</li>
+  </ul>
+
+  <h3>Data Visualization & BI Tools</h3>
+  <ul>
+    <li>Excel</li>
+    <li>Tableau</li>
+    <li>Dash</li>
+  </ul>
+</div>
+
 {% endblock %}

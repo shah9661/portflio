@@ -1,8 +1,40 @@
 {% extends "base.html" %}
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static',filename='css/experience.css')}}">
+{% endblock %}
 {% block content %}
-<h2>Inernshiip</h2>
+<section id="internship">
+  <h1>Internship</h1>
+
+  <div class="certificate">
+    <h2>AI and Machine Learning Internship</h2>
+    <p>
+       I am awarded to <strong>Shanshad Alam</strong> in recognition of my hard work and dedication during the 
+      <strong>AI and Machine Learning Internship</strong><br>
+      <strong>Teamwork & Professionalism :</strong> <br>
+During my three-month internship as an AI & Machine Learning Intern, I collaborated closely with a cross-functional team of developers and data scientists. I communicated progress and challenges clearly in team meetings and daily stand-ups, documented my work, and contributed ideas during brainstorming sessions. I consistently followed established workflows, met deadlines, and maintained discipline in my tasks. This experience strengthened my ability to work effectively in a team, adapt to processes, and deliver quality results in a professional environment. <br>
+
+</p>
+    <a href="{{ url_for('static', filename='files/uptoskill.pdf') }}">
+      📄 View / Download Certificate
+    </a>
+  </div>
+  <div class="techsaksham">
+    <h2>AI: Transformative Learning with TechSaksham</h2>
+    <p>AI: Transformative Learning with TechSaksham
+Joint CSR Initiative by Microsoft & SAP, Implemented by Edunet Foundation <br>
+<strong>Certification:</strong>  Completed successfully <br>
 <ul>
-    <li>I did internship in xyz company</li>
-    <li>My role that xyz</li>
-</ul>
+<li>Acquired hands-on knowledge of AI concepts and applications.</li>
+
+<li>Gained practical experience through projects and real-world problem solving.</li>
+
+<li>Enhanced digital skills and understanding of emerging technologies</li>
+</ul></p>
+<a href="{{ url_for('static', filename='files/intership-techsaksham.pdf') }}">
+      📄 View / Download Certificate
+    </a>
+  </div>
+</section>
+
 {% endblock %}

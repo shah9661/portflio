@@ -1,0 +1,32 @@
+.internship h1{
+    color: #eae0e0;
+}
+.certificate{ 
+    border: 5px solid #ccc;
+    padding: 46px;
+    margin: 14px 0;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+}
+.certificate h2 {
+    color: #2c3e50;
+}
+.certificate p {
+    color: #000;
+}
+.techsaksham {
+     border: 5px solid #ccc;
+    padding: 46px;
+    margin: 14px 0;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+}
+.techsaksham h2 {
+    color: #2c3e50;
+}
+.techsaksham p {
+    color: #000;
+}
+.techsaksham li {
+    color: #000;
+}

@@ -1,0 +1,13 @@
+.programming{ 
+    border: 5px solid #ccc;
+    padding: 46px;
+    margin: 14px 0;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+}
+.programming h3 {
+    color: #2c3e50;
+}
+.programming li {
+    color: #000; 
+}

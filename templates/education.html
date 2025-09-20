@@ -3,10 +3,40 @@
 <link rel="stylesheet" href="{{url_for('static',filename='css/education.css')}}">
 {% endblock %}
 {% block content %}
-<h2>Skill</h2>
+<div class="eduaction">
+<h2>Education</h2>
+        <p2><strong>B.Tech – Electrical Engineering</strong>
+        - Jamia Millia Islamia Central University (2023–2027)<br>
+
+        &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Relevant Coursework: Basic Electrical Engineering, Python for Data Analysis, Introduction to Machine Learning<br><br></p2>
+
+<p2><strong>+2 – Science Stream</strong> - 
+        Aligarh Muslim University (2020–2022)<br><br></p2>
+
+<p2><strong>10th</strong> – Bihar Board (2020)
+        </p2>
+    
+
+</div>
+<div class="language">
+<h2> Language</h2>
 <ul>
-    <li>B.Tech – Jamia Millia Islamia Central University (2023–2027)</li>
-    <li>+2 Alighar Muslim University</li>
-    <li>10th Bihar bord</li>
+    <strong><li>Hindi</li>
+    <li>English</li></strong>
 </ul>
+</div>
+<div class="certificate">
+  <h3>Certificate of Achievement</h3>
+  <p1><strong>Title:</strong> Introduction to Data and Data Science</p>
+  <p1><strong>Certificate ID:</strong> 365 DATA SCIENCE (CC-7AB2535FB8) <a href="{{ url_for('static', filename='files/data-science-intro.pdf') }}">
+      📄 View / Download Certificate </a>
+  </p>
+  <p1><strong>Title:</strong> Introduction to Excel</p>
+  <p1><strong>Certificate ID:</strong> 365 DATA SCIENCE (CC-D1F3E6BCD8) <a href="{{ url_for('static', filename='files/excel.pdf') }}">
+  📄 View / Download Certificate </a>
+</a>
+</p>
+</div>
+
+
 {% endblock %}
